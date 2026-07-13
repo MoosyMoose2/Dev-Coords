@@ -1,5 +1,5 @@
 # Dev-Coords
-Simple Dev Coords Script /Coords
+Simple Dev Coords Script /Coords Still in Works to fix one more issue i need to make the box bigger to see the coords
 
 
 
