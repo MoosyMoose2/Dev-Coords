@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Coords</title>
+    <link rel="stylesheet" href="ui.css" />
+</head>
+<body>
+    <div id="panel" class="hidden">
+        <div class="header">
+            <span>Coords</span>
+            <button id="closeBtn">✕</button>
+        </div>
+
+        <div class="row">
+            <span class="label">Vector2</span>
+            <input id="vec2" type="text" readonly />
+            <button class="copyBtn" data-target="vec2">Copy</button>
+        </div>
+
+        <div class="row">
+            <span class="label">Vector3</span>
+            <input id="vec3" type="text" readonly />
+            <button class="copyBtn" data-target="vec3">Copy</button>
+        </div>
+
+        <div class="row">
+            <span class="label">Vector4</span>
+            <input id="vec4" type="text" readonly />
+            <button class="copyBtn" data-target="vec4">Copy</button>
+        </div>
+    </div>
+
+    <script src="ui.js"></script>
+</body>
+</html>

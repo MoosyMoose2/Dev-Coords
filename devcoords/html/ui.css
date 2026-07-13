@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+html, body {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#panel {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 300px;
+    background: rgba(25, 25, 25, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+#panel.hidden {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: move;
+    user-select: none;
+}
+
+.header button {
+    background: none;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.header button:hover {
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.label {
+    width: 60px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.row input {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 6px;
+}
+
+.copyBtn {
+    background: #3a7bd5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.copyBtn:hover {
+    background: #2f66b3;
+}
+
+.copyBtn.copied {
+    background: #2ecc71;
+}
